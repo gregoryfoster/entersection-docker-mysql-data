@@ -1,4 +1,4 @@
-# Entersection - MySQL data container image
+# Docker container image to persist Entersection MySQL data
 FROM mysql:latest
 MAINTAINER gregoryfoster <greg@foojutsu.com>
 VOLUME /var/lib/mysql
